@@ -1,0 +1,80 @@
+<head><version>2.61.8</version></head>
+<Fiducial>
+  <adaptive_threshold>30</adaptive_threshold>
+  <base_folder>C:\Program Files (x86)\RoboRealm\Fiducials\</base_folder>
+  <create_shape_array>FALSE</create_shape_array>
+  <display_confidence>TRUE</display_confidence>
+  <display_contrast>FALSE</display_contrast>
+  <display_coord>FALSE</display_coord>
+  <display_distance>FALSE</display_distance>
+  <display_filename>TRUE</display_filename>
+  <display_orientation>FALSE</display_orientation>
+  <display_rx>FALSE</display_rx>
+  <display_ry>FALSE</display_ry>
+  <display_scale>FALSE</display_scale>
+  <display_tx>FALSE</display_tx>
+  <display_ty>FALSE</display_ty>
+  <fiducial_height>3</fiducial_height>
+  <fiducial_width>3</fiducial_width>
+  <field_of_view>47.5</field_of_view>
+  <focal_length>250</focal_length>
+  <font_size_index>2</font_size_index>
+  <matched_color_index>3</matched_color_index>
+  <max_angle>360</max_angle>
+  <max_confidence>100</max_confidence>
+  <max_contrast>100</max_contrast>
+  <max_size>1000</max_size>
+  <max_x_angle>360</max_x_angle>
+  <max_y_angle>360</max_y_angle>
+  <min_angle>0</min_angle>
+  <min_confidence>80</min_confidence>
+  <min_contrast>0</min_contrast>
+  <min_size>0</min_size>
+  <min_x_angle>0</min_x_angle>
+  <min_y_angle>0</min_y_angle>
+  <monitor_folder>FALSE</monitor_folder>
+  <occurrence_threshold>0</occurrence_threshold>
+  <select_top_blobs>100</select_top_blobs>
+  <sort_array_on_x>FALSE</sort_array_on_x>
+  <sort_array_on_y>FALSE</sort_array_on_y>
+  <test_color_index>5</test_color_index>
+</Fiducial>
+<Display_Variables>
+  <border_color>red</border_color>
+  <dim_background>TRUE</dim_background>
+  <display_as_annotation>FALSE</display_as_annotation>
+  <display_value_only>FALSE</display_value_only>
+  <font_color>white</font_color>
+  <font_size>Normal (10pt)</font_size>
+  <north>FIDUCIAL_CONFIDENCE
+</north>
+  <northwest>FIDUCIAL_NAME
+</northwest>
+</Display_Variables>
+<If_Statement>
+  <comparison_1>3</comparison_1>
+  <comparison_2>-1</comparison_2>
+  <comparison_3>-1</comparison_3>
+  <comparison_4>-1</comparison_4>
+  <comparison_type_1>4</comparison_type_1>
+  <comparison_type_2>-1</comparison_type_2>
+  <comparison_type_3>-1</comparison_type_3>
+  <comparison_type_4>-1</comparison_type_4>
+  <has_else>FALSE</has_else>
+  <is_latch>FALSE</is_latch>
+  <join_1>-1</join_1>
+  <join_2>-1</join_2>
+  <join_3>-1</join_3>
+  <value_1>90</value_1>
+  <variable_1>FIDUCIAL_CONFIDENCE</variable_1>
+</If_Statement>
+<NetworkTables>
+  <delay>100</delay>
+  <filter_type_index>0</filter_type_index>
+  <hostname>10.17.8.5</hostname>
+  <port>1735</port>
+  <prefix>/SmartDashboard/</prefix>
+  <variables_to_send>FIDUCIAL_NAME</variables_to_send>
+  <variable_type_index>0</variable_type_index>
+</NetworkTables>
+<end_if/>
